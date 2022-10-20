@@ -73,3 +73,21 @@
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+.portfolioTitre{
+    font-weight: bolder;
+    color: black;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+.photo{
+    margin: 5px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bolder;
+
+}
