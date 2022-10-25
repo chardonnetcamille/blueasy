@@ -75,7 +75,6 @@
 }
 
 .portfolioTitre{
-    font-weight: bolder;
     color: black;
     font-size: 2rem;
     text-transform: uppercase;
@@ -90,4 +89,59 @@
     padding: 4px;
     font-weight: bolder;
 
+}
+
+.elementsPortfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 60px;
+    padding-top: 70px;
+}
+.portfolioTableau{
+    margin-bottom: 60px;
+
+}
+.photo{
+    height: 200px;
+    background-position: center ;
+    background-size : cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.photo1{
+    background-image: url("images/portfolio/1.png");
+}
+.photo2{
+    background-image: url("images/portfolio/2.png");
+}
+.photo3{
+    background-image: url("images/portfolio/3.png");
+}
+.photo4{
+    background-image: url("images/portfolio/4.png");
+}
+.photo5{
+    background-image: url("images/portfolio/5.png");
+}
+.photo6{
+    background-image: url("images/portfolio/6.png");
+}
+.photo7{
+    background-image: url("images/portfolio/7.png");
+}
+.photo8{
+    background-image: url("images/portfolio/8.png");
+}
+
+.defaultSection{
+    background-color: grey;
+    padding-top: 70px;
+}
+.defaultTitre{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 220px;
 }
